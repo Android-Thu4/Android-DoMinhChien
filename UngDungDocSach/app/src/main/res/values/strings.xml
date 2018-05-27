@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hạt Giống Tâm Hồn - 11 Tập</string>
+    <string name="doc_truyen">Đọc Truyện</string>
+    <string name="tai_ung_dung">Tải Ứng Dụng</string>
+    <string name="gop_y">Góp Ý</string>
+    <string name="thoat">Thoát</string>
+    <string name="todo">TODO</string>
+    <string name="t_n">Tên</string>
+    <string name="danh_gia">Bạn hãy giành chút thời gian đánh giá 5* ủng hộ cho ứng dụng này nhé. Và bạn hãy gửi truyện bạn muốn đọc vào mục GÓP Ý đề BookFunny sẽ làm ở phần tiếp theo nhé^^.Chúc bạn đọc truyện vui vẻ!</string>
+    <string name="kh_ng">Thoát</string>
+    <string name="ng">Đánh Giá</string>
+    <string name="th_m_truy_n">Thêm Truyện</string>
+    <string name="th_m">Thêm</string>
+
+    <string name="ti_u">Nhập Tiêu Đề</string>
+    <string name="n_i_dung">Nhập Nội Dung</string>
+    <string name="h_y">Hủy</string>
+    <string name="bac"><![CDATA[<<]]></string>
+</resources>

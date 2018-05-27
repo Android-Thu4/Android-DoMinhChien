@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/danh_gia"
+        android:textSize="16sp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_dong_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đánh Giá" />
+        <Button
+            android:id="@+id/btn_khong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kh_ng" />
+
+    </LinearLayout>
+</LinearLayout>

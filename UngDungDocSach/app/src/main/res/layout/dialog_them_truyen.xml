@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        
+        android:id="@+id/textThem"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="@string/th_m_truy_n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="@string/ti_u"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textThem"
+        android:id="@+id/edtTenTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Nhập Nội Dung Truyện"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/edtTenTruyen"
+        android:id="@+id/edtNoiDungTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+
+        android:id="@+id/btnThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtTenTruyen"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="61dp"
+        android:text="@string/th_m" />
+
+    <Button
+        android:id="@+id/btnHuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnThem"
+        android:layout_alignBottom="@+id/btnThem"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="@string/h_y" />
+
+</RelativeLayout>

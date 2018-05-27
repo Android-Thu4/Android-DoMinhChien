@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <TextView
+        
+        android:padding="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:text="Cập Nhật Truyện"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/editTextTenTruyen"
+        android:hint="Nhập tên truyện"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/editTextNoiDungTruyen"
+        android:hint="Nhập nội dung truyện"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnXacNhan"
+            android:text="Xác nhận"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnHuy"
+            android:text="Hủy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
